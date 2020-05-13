@@ -4,7 +4,7 @@
 		module.exports = factory();
 	else if(typeof define === 'function' && define.amd)
 		define([], factory);
-/* istanbul ignore next */
+/* istanbul ignore next hola que ase*/ 
 	else if(typeof exports === 'object')
 		exports["esprima"] = factory();
 	else
